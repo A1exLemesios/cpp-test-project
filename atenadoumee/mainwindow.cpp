@@ -15,5 +15,14 @@ MainWindow::~MainWindow()
 
 void MainWindow::on_pushButton_clicked()
 {
-    ui->label->setText("ws jai oi mitisioi sto frontistirio xeroun");
+    ui->label->setText("ouch");
+
+}
+
+
+
+void MainWindow::on_checkBox_clicked(bool checked)
+{
+    ui->label->setText("no");
+
 }

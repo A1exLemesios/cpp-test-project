@@ -15,14 +15,7 @@ MainWindow::~MainWindow()
 
 void MainWindow::on_pushButton_clicked()
 {
-    ui->label->setText("ouch");
+    ui->label->setText("Giannis");
 
 }
 
-
-
-void MainWindow::on_checkBox_clicked(bool checked)
-{
-    ui->label->setText("no");
-
-}
